@@ -1,0 +1,60 @@
+body{
+    background: #fbfdfdf5;
+    min-height: 200vh;
+}
+
+.titre{
+    margin-top: 8%;
+    margin-left: 25%;
+    margin-right: 25%;
+    align-items: center;
+    border: solid black 1px;
+    background-color: blueviolet;
+    color: white;
+}
+
+nav ul{
+   display: flex; 
+   text-decoration: none;
+   list-style: none;
+   justify-content: space-around;
+   margin-left: 25%;
+   margin-right: 25%;
+   margin-top: 5%;
+}
+
+a.leBouton {
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: blue; 
+    color: white;
+    border: 1px solid gray;
+    border-radius: 1px;
+    border-style:inset;
+}
+
+ a.leBouton:hover {
+    background-color: yellow;
+    color:red;
+}
+
+a.deco{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: red; 
+    color: white;
+    border: 1px solid gray;
+    border-radius: 1px;
+    border-style:inset;
+}
+
+a.deco:hover {
+    background-color: black;
+    color: white;
+}
+
+.dec{
+    margin-left: 45%;
+    margin-right: 40%;
+    margin-top: 15%;
+}

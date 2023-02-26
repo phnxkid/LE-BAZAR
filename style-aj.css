@@ -1,0 +1,31 @@
+body{
+	background: darkgrey;
+	font-family: arial;
+	font-size: 1em;
+
+}
+
+fieldset{
+	width: 40%;
+	height: 80%;
+	position: relative;
+	top: 30px;
+	left: 25%;
+	background: white;
+	border-radius: 20px;
+	border-color: black;
+}
+
+#titre, #nom, #categorie, #prix{
+	width: 80%;
+	height: 25px;
+}
+
+input:hover{
+	color: bisque;
+}
+
+textarea{
+	width: 80%;
+	height: 20vh;
+}
